@@ -1,12 +1,9 @@
 import React,{useState,useEffect} from 'react';
 import './App.css';
-import {ethers} from 'ethers';
 
 
 
 function App(){
-  const [tasks,setTasks] = useState([]); 
-  const [input,setInput] = useState("");
   const [currentAccount,setCurrentAccount] = useState("");
   const [correctNetwork,setCorrectNetwork] = useState(false);
 
