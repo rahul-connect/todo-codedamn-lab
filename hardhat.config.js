@@ -28,9 +28,12 @@ module.exports = {
      hardhat : {
 
      },
-     goerli:{
-      url: ALCHEMY_URL,
-      accounts: [WALLET_PRIVATE_KEY]
-    }
-  }
+    //  goerli:{
+    //   url: ALCHEMY_URL,
+    //   accounts: [WALLET_PRIVATE_KEY]
+    // }
+  },
+  paths: {
+    artifacts: "./client/src/abi"
+  },
 };
