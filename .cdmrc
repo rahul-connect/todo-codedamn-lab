@@ -1,2 +1,2 @@
-tabs: ['contracts/TaskContract.sol']
+tabs: ['scripts/deploy.js']
 terminal-one: npm install
