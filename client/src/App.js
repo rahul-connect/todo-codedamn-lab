@@ -20,7 +20,8 @@ function App(){
 
 
   useEffect(()=>{
-    connectWallet();
+    // Uncommenet the below line after you are finished
+   // connectWallet();
   },[]);
 
 
