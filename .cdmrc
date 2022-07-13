@@ -1,2 +1,3 @@
-tabs: ['scripts/deploy.js']
+tabs: ['client/src/App.js']
 terminal-one: npm install
+terminal-two: cd client && npm install
