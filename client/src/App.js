@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import {TextField,Button} from '@mui/material';
 import './App.css';
+import Task from './Task';
 
 import {ethers} from 'ethers';
 const { abi } = require("./abi/contracts/TaskContract.sol/TaskContract.json");
