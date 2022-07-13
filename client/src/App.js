@@ -3,7 +3,7 @@ import {TextField,Button} from '@mui/material';
 import './App.css';
 
 import {ethers} from 'ethers';
-const { abi } = require("../../artifacts/contracts/TaskContract.sol/TaskContract.json");
+const { abi } = require("../abi/contracts/TaskContract.sol/TaskContract.json");
 
 const TaskContractAddress = ""; // Enter your contract address here
 
