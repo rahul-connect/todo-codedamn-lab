@@ -17,7 +17,14 @@ contract TaskContract{
 
     mapping(uint256 => address) taskToOwner;
 
-    function addTask(string memory taskText,bool isDeleted) external {
+   function addTask(string memory taskText,bool isDeleted) external {
+        uint taskId = tasks.length;
+        tasks.push(Task(taskId,taskText,isDeleted));
+        taskToOwner[taskId] = msg.sender;
+        emit AddTask(msg.sender, taskId);
+    }
+
+    function deleteTask(uint taskId,bool isDeleted) external {
       
     }
 
