@@ -24,8 +24,15 @@ contract TaskContract{
         emit AddTask(msg.sender, taskId);
     }
 
-    function deleteTask(uint taskId,bool isDeleted) external {
-      
+     function deleteTask(uint taskId,bool isDeleted) external {
+        if(taskToOwner[taskId] == msg.sender){
+            tasks[taskId].isDeleted = isDeleted;
+            emit DeleteTask(taskId, isDeleted);
+        }
+    }
+
+    function getMyTasks() external view returns (Task[] memory){
+        // Write here
     }
 
 
