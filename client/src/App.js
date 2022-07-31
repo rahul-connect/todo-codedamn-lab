@@ -103,7 +103,7 @@ function App(){
 
 
 useEffect(()=>{
-  connectWallet();
+ // connectWallet(); // Uncomment this later on
  // getAllTasks();  // Uncomment this later on
 },[]);
 
