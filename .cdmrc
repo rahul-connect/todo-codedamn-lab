@@ -1,2 +1,2 @@
 tabs: ['contracts/TaskContract.sol']
-terminal-one: yarn add
+terminal-one: yarn
