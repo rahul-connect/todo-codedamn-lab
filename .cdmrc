@@ -1,2 +1,2 @@
 tabs: ['scripts/deploy.js']
-terminal-one: npm install
+terminal-one: yarn
